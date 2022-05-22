@@ -21,6 +21,7 @@ body {
 #footer {
   height: 200px;
   background-color: red;
+  margin-top: 5px;
 }
 
 #banner {
