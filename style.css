@@ -51,7 +51,6 @@ body {
   display: flex;
   margin-top: 10px;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .product-card {
@@ -67,7 +66,6 @@ body {
 .product-img {
   width: 100%;
   height: 200px;
-
   object-fit: cover;
   border-radius: 12px;
 }
