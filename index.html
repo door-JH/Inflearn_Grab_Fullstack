@@ -33,17 +33,17 @@
     name: '농구공1',
     price: 60000,
     seller: '조던1',
-    imageUrl: '/products/basketball1.jpeg'
+    imageUrl: 'products/basketball1.jpeg'
   }, {
     name: '농구공2',
     price: 70000,
     seller: '조던2',
-    imageUrl: 'images/images/products/basketball2.jpg'
+    imageUrl: 'products/basketball2.jpg'
   }, {
     name: '농구공3',
     price: 80000,
     seller: '조던3',
-    imageUrl: './images/images/products/basketball2.jpg'
+    imageUrl: 'products/basketball3.jpg'
   }];
 
   let productsHtml = "";
@@ -52,7 +52,7 @@
     productsHtml = productsHtml +
       '<div class="product-card">' +
       '<div>' +
-      '<img class="product-img" src=' + product.imageUrl + ', alt="source" />' +
+      '<img class="product-img" src=' + product.imageUrl + ' alt="source" />' +
       '</div>' +
       '<div class="product-contents">' +
       '<span class="product-name">' + product.name + '</span>' +
